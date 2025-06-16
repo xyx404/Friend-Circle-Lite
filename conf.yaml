@@ -8,8 +8,8 @@
 #     marge_json_path:  请填写网络地址的json文件，用于合并，不带空格！！！
 spider_settings:
   enable: true
-  json_url: "https://blog.liushen.fun/friend.json"
-  article_count: 5
+  json_url: "https://blog.xyx404.dedyn.io/friend.json"
+  article_count: 10
   merge_result:
     enable: false
     merge_json_url: "https://fc.liushen.fun"
@@ -35,13 +35,13 @@ email_push:
 #   website_info:       你的博客信息
 #     title:            你的博客标题，如果启用了推送，用于生成邮件主题
 rss_subscribe:
-  enable: true
+  enable: false
   github_username: willow-god
   github_repo: Friend-Circle-Lite
-  your_blog_url: https://blog.liushen.fun/
+  your_blog_url: https://xyx404.github.io/
   email_template: "./rss_subscribe/email_template.html"
   website_info:
-    title: "清羽飞扬"
+    title: "xyx404"
 
 # SMTP 配置
 # 解释：使用其中的相关配置实现上面两种功能，若无推送要求可以不配置，请将以上两个配置置为false
@@ -53,7 +53,7 @@ smtp:
   email: 3162475700@qq.com
   server: smtp.qq.com
   port: 587
-  use_tls: true
+  use_tls: false
 
 # 特殊RSS地址指定，可以置空但是不要删除！
 # 解释：用于指定特殊RSS地址，如B站专栏等不常见RSS地址后缀，可以添加多个
